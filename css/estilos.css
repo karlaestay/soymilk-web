@@ -2,21 +2,21 @@
 
 @font-face {
   font-family: 'ProximaNova-Regular';
-  src: url('/res/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),  url('/res/fonts/ProximaNova-Regular.otf')  format('opentype'),
-	     url('/res/fonts/ProximaNova-Regular.woff') format('woff'), url('/res/fonts/ProximaNova-Regular.ttf')  format('truetype'), url('/res/fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  src: url('../res/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),  url('../res/fonts/ProximaNova-Regular.otf')  format('opentype'),
+	     url('../res/fonts/ProximaNova-Regular.woff') format('woff'), url('../res/fonts/ProximaNova-Regular.ttf')  format('truetype'), url('../res/fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'BrandonGrotesque-Medium';
-  src: url('/res/fonts/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype'),  url('/res/fonts/BrandonGrotesque-Medium.otf')  format('opentype'),
-	     url('/res/fonts/BrandonGrotesque-Medium.woff') format('woff'), url('/res/fonts/BrandonGrotesque-Medium.ttf')  format('truetype'), url('/res/fonts/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg');
+  src: url('../res/fonts/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype'),  url('../res/fonts/BrandonGrotesque-Medium.otf')  format('opentype'),
+	     url('../res/fonts/BrandonGrotesque-Medium.woff') format('woff'), url('../res/fonts/BrandonGrotesque-Medium.ttf')  format('truetype'), url('../res/fonts/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'EyeCatching';
-  src: url('/res/fonts/EyeCatching.eot?#iefix') format('embedded-opentype'), url('/res/fonts/EyeCatching.woff') format('woff'), url('/res/fonts/EyeCatching.ttf')  format('truetype'), url('/res/fonts/EyeCatching.svg#EyeCatching') format('svg');
+  src: url('../res/fonts/EyeCatching.eot?#iefix') format('embedded-opentype'), url('../res/fonts/EyeCatching.woff') format('woff'), url('../res/fonts/EyeCatching.ttf')  format('truetype'), url('../res/fonts/EyeCatching.svg#EyeCatching') format('svg');
   font-weight: normal;
   font-style: normal;
 }
