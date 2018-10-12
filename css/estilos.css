@@ -1,0 +1,171 @@
+body{
+}
+
+h1{
+  text-align: center;
+
+
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 0;
+  }
+
+.productos{
+
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Brandon Grotesque;
+
+
+}
+
+.inline-block {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+
+.afuera {
+  position: relative;
+}
+
+.adentro {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background-color:  #fadbd8;
+  border-radius: 3px;
+  padding: 0 5px 0px 5px;
+  font-family: brandon Grotesque;
+}
+
+.tituloprincipal {
+  background-color: #fadbd8;
+}
+.tituloseccion
+{
+  font-size: 25px;
+}
+
+.brandon
+{
+  font-family: brandon Grotesque;
+}
+
+.textocentrado
+{
+  text-align: center;
+}
+
+#carrusel {
+  width: 65%;
+  margin: 0px auto;
+  image-resolution: from-image;
+}
+
+.elementocentrado
+{
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tamanoproductos
+{
+  width: 200px;
+  height: 200px;
+}
+
+.nombreproductos
+{
+  max-width: 160px;
+  font-family: brandon grotesque medium;
+  font-size: 13;
+}
+
+.tarjetas
+{
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  max-height: 117px;
+  max-width: 200px;
+}
+
+.separadorpyp
+{
+  margin-bottom: 7px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 7px
+}
+
+.botoncomprar
+{
+  background-color: #505050;
+  border-bottom-color: #505050;
+  border-left-color:#505050;
+  border-right-color: #505050;
+  border-top-color: #505050;
+  font-size: 14px;
+}
+
+.textopequeno
+{
+font-size: 13px;
+}
+.margenlados
+{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.imagencentrada
+{
+  display:block;
+  margin:auto;
+}
+.Search
+{
+  border-bottom-color: #d61e1e;
+  border-left-color: #d61e1e;
+  border-top-color: #d61e1e;
+  border-right-color: #d61e1e;
+  color: #d61e1e;
+
+}
+
+.form1
+{
+  margin-top: 5px;
+}
+
+.margenform
+{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.principal
+{
+
+}
+
+.miniaturas
+{
+
+}
+
+.miniatura
+{
+  border-radius: 3px;
+}
+
+.miniatura hide
+{
+
+}
