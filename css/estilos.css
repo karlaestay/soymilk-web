@@ -1,10 +1,40 @@
+@@charset "UTF-8";
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('/res/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),  url('/res/fonts/ProximaNova-Regular.otf')  format('opentype'),
+	     url('/res/fonts/ProximaNova-Regular.woff') format('woff'), url('/res/fonts/ProximaNova-Regular.ttf')  format('truetype'), url('/res/fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BrandonGrotesque-Medium';
+  src: url('/res/fonts/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype'),  url('/res/fonts/BrandonGrotesque-Medium.otf')  format('opentype'),
+	     url('/res/fonts/BrandonGrotesque-Medium.woff') format('woff'), url('/res/fonts/BrandonGrotesque-Medium.ttf')  format('truetype'), url('/res/fonts/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'EyeCatching';
+  src: url('/res/fonts/EyeCatching.eot?#iefix') format('embedded-opentype'), url('/res/fonts/EyeCatching.woff') format('woff'), url('/res/fonts/EyeCatching.ttf')  format('truetype'), url('/res/fonts/EyeCatching.svg#EyeCatching') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
 body{
 }
 
 h1{
   text-align: center;
-
-
 }
 
 p{
@@ -13,12 +43,9 @@ p{
   }
 
 .productos{
-
   margin-left: auto;
   margin-right: auto;
-  font-family: Brandon Grotesque;
-
-
+  font-family: 'BrandonGrotesque-Medium' !important;
 }
 
 .inline-block {
@@ -31,6 +58,8 @@ p{
 
 .afuera {
   position: relative;
+  font-family: 'BrandonGrotesque-Medium';
+
 }
 
 .adentro {
@@ -40,7 +69,6 @@ p{
   background-color:  #fadbd8;
   border-radius: 3px;
   padding: 0 5px 0px 5px;
-  font-family: brandon Grotesque;
 }
 
 .tituloprincipal {
@@ -53,7 +81,7 @@ p{
 
 .brandon
 {
-  font-family: brandon Grotesque;
+  font-family: 'BrandonGrotesque-Medium';
 }
 
 .textocentrado
@@ -83,7 +111,7 @@ p{
 .nombreproductos
 {
   max-width: 160px;
-  font-family: brandon grotesque medium;
+  font-family: 'BrandonGrotesque-Medium';
   font-size: 13;
 }
 
@@ -113,6 +141,7 @@ p{
   border-right-color: #505050;
   border-top-color: #505050;
   font-size: 14px;
+  display: none
 }
 
 .textopequeno
