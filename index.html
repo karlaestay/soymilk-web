@@ -14,7 +14,7 @@
   </div>
   <!--Menu-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light margenlados ">
-    <a class="navbar-brand brandon textopequeno" href="#"><img src="res/48.png" style="margin: 2%;width:35%"></a>
+    <a class="navbar-brand brandon textopequeno" href="#"><img src="res/48.png" style="margin: 2%;width:30%"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -87,6 +87,18 @@
     <div id="divAccesorios" class="productos margenlados" style="margin-left: 7.5%; margin-right: 7.5%"></div>
   </center>
 
+
+
+    <!-- etc-->
+    <hr class="separadorpyp margenlados">
+    <center>
+      <h3 class="tituloseccion brandon">Etcetera</h3></center>
+    <hr class="separadorpyp margenlados">
+    <center>
+      <div id="divEtc" class="productos margenlados" style="margin-left: 7.5%; margin-right: 7.5%"></div>
+    </center>
+
+
   <!---LEYENDA-->
   <center>
     <hr class="separadorpyp margenlados">
@@ -104,84 +116,8 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script type="text/javascript">
-  var productosNuevos = [{
-    img: "3.png",
-    precio: 9990
-  }, {
-    img: "4.png",
-    precio: 2000
-  }, {
-    img: "5.png",
-    precio: 3600
-  }, ];
-
-  var accesorios = [{
-    img: "5.png",
-    precio: 3800
-  }, {
-    img: "4.png",
-    precio: 4500
-  }, {
-    img: "3.png",
-    precio: 5500
-  }, {
-    img: "4.png",
-    precio: 4500
-  }, {
-    img: "3.png",
-    precio: 5500
-  }, {
-  img: "4.png",
-  precio: 4500
-}, {
-  img: "3.png",
-  precio: 5500
-},];
-
-  insertItemsInElementId(productosNuevos, 'divNuevos');
-  insertItemsInElementId(accesorios, 'divAccesorios');
-
-
-
-function insertItemsInElementId(items, id) {
-    for (var i = 0; i < items.length; i++) {
-      var div = document.createElement('div');
-      div.setAttribute('class', 'card inline-block');
-      div.setAttribute('style', "display:'inline'; width: 25%;");
-
-      div.innerHTML =
-        `
-              <div class="afuera">
-                <img class="card-img-top " src=${"res/"+items[i].img} alt="Card image cap">
-                <span class="adentro brandon">Nuevo</span>
-              </div>
-
-              <div class="card-body tarjetas">
-                <h5 class="card-title nombreproductos">DECO SAILOR</h5>
-                <hr class="separadorpyp">
-                <p class="card-text">${formatAmount(items[i].precio )}</p>
-                <a href="" class="btn btn-primary botoncomprar">COMPRAR</a>
-              </div>
-    `;
-      document.getElementById(id).appendChild(div);
-    }
-  }
-  function formatAmount(amount) {
-    var result = ""
-    var digits = 0;
-    while (amount > 0) {
-      if (digits == 3) {
-        result = "." + result;
-        digits = 0;
-      }
-      result = (amount % 10) + result;
-      amount = Math.trunc(amount / 10);
-      digits++;
-    }
-    return "$ " + result;
-  }
-  </script>
+  <script src="js/funciones.js"></script>
+  <script src="js/productos.js"></script>
 </body>
 
 </html>
