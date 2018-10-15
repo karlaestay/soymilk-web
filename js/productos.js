@@ -47,36 +47,20 @@ var lineas = [{
   img: "ouija.png",
   nombre: "Ouija",
   etiqueta: "",
-  precio: 2000,
-  link: ""
 }, {
   img: "aki.png",
   nombre: "Aki",
   etiqueta: "",
-  precio: 4000,
-  link: ""
+
 }, {
   img: "fanart.png",
   nombre: "Fanart",
   etiqueta: "",
-  precio: 4000,
-  link: ""
 }, {
   img: "kawaii.png",
   nombre: "Kawaii",
   etiqueta: "",
-  precio: 4000,
-  link: ""
 }];
-
-
-
-
-
-
-
-
-
 
 
 insertItemsInElementId(masVendidos, 'divMasVendidos');
