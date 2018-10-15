@@ -7,12 +7,14 @@ var etc = [{
   img: "52.png",
   nombre: "Facebook",
   etiqueta: "Sin stock",
-  precio: 10000
+  precio: 10000,
+  link: "https://www.kh.com/fnd8fs"
 }, {
   img: "53.png",
   nombre: "Instagram",
   etiqueta: "",
-  precio: 150000
+  precio: 150000,
+  link: ""
 }];
 
 

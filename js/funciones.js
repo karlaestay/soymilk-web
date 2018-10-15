@@ -15,7 +15,7 @@ function insertItemsInElementId(items, id) {
                 <h5 class="card-title nombreproductos">${items[i].nombre}</h5>
                 <hr class="separadorpyp">
                 <p class="card-text">${formatAmount(items[i].precio )}</p>
-                <a href="" class="btn btn-primary botoncomprar">COMPRAR</a>
+                <a href="${items[i].link}" class="btn btn-primary botoncomprar">COMPRAR</a>
               </div>
     `;
       document.getElementById(id).appendChild(div);
