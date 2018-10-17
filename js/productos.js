@@ -1,41 +1,41 @@
 var masVendidos =  [{
-  img: "4.png",
+  img: "4.jpg",
   nombre: "Libreta Aki",
   etiqueta: "Nuevo",
   precio: 2000,
   link: "https://www.kh.com/fnd8fs"
 }, {
-  img: "5.png",
+  img: "5.jpg",
   nombre: "Aros pentagrama corazón",
   etiqueta: "Nuevo",
   precio: 3500,
   link: ""
 }, {
-  img: "3.png",
+  img: "3.jpg",
   nombre: "Aros",
   etiqueta: "Nuevo",
   precio: 3500,
   link: ""
 }, {
-  img: "1.png",
+  img: "1.jpg",
   nombre: "Aros Darth Vader",
   etiqueta: "Nuevo",
   precio: 4000,
   link: ""
 }, {
-  img: "2.png",
+  img: "2.jpg",
   nombre: "Aros Alianza Rebelde",
   etiqueta: "Nuevo",
   precio: 4000,
   link: ""
 }, {
-  img: "6.png",
+  img: "6.jpg",
   nombre: "Collares Gatitos Yin Yang",
   etiqueta: "",
   precio: 4000,
   link: ""
 }, {
-  img: "7.png",
+  img: "7.jpg",
   nombre: "Collar Arnold",
   etiqueta: "",
   precio: 4000,
@@ -44,20 +44,20 @@ var masVendidos =  [{
 
 
 var lineas = [{
-  img: "ouija.png",
+  img: "ouija.jpg",
   nombre: "Ouija",
   etiqueta: "",
 }, {
-  img: "aki.png",
+  img: "aki.jpg",
   nombre: "Aki",
   etiqueta: "",
 
 }, {
-  img: "fanart.png",
+  img: "fanart.jpg",
   nombre: "Fanart",
   etiqueta: "",
 }, {
-  img: "kawaii.png",
+  img: "kawaii.jpg",
   nombre: "Kawaii",
   etiqueta: "",
 }];
