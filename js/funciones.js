@@ -6,13 +6,13 @@ function insertItemsInElementId(items, id) {
 
 		div.innerHTML =
 			`
-              <div class="afuera">
+              <div class="afuera centrado">
                 <img class="card-img-top " src=${"res/" + items[i].img} alt="Card image cap">
                 <span class="adentro brandon">${items[i].etiqueta}</span>
               </div>
 
-              <div class="card-body tarjetas">
-                <h5 class="card-title nombreproductos">${items[i].nombre}</h5>
+              <div class="card-body tarjetas centrado"  style="margin:auto;>
+                <p class="card-title centrado nombreproductos" style="margin:auto;">${items[i].nombre}</p>
 `;
 		if (items[i].precio != null) {
 			div.innerHTML +=
